@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gissa numret</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main>
+        <h1>Gissa numret</h1>
+        <label for="numberGuess">Skriv in ett heltal (1-100):</label>
+        <input type="text" id="numberGuess" size="3" minlength="1" maxlength="3">
+        <button type="button" id="submitButton">Gissa!</button>
+        <p id="response">&nbsp;</p>
+        <h2>Dina tidigare gissningar:</h2>
+        <ol id="prevGuesses">
+        </ol>
+    </main>
+
+    <script src="guessnumber.js"></script>
+</body>
+</html>
